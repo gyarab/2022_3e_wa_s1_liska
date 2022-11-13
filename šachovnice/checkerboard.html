@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        td{
+            height: 24px;
+            width: 24px;
+            border: 1px solid black;
+        }
+    </style>
+<body>
+    <script>
+        tbl = document.createElement('table');
+        for (let i = 0; i < 8; i++) {
+            let tr = document.createElement("tr");
+            for (let j = 0; j < 8; j++) {
+                let td = document.createElement("td");
+                if ((j + i) % 2 == 1) {
+                    td.style.background = "#000000";
+                }
+                tr.appendChild(td);
+            }
+            tbl.appendChild(tr);
+        }
+        document.body.appendChild(tbl);
+    </script>
+</body>
+</html>
