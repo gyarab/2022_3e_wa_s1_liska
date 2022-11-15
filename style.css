@@ -1,0 +1,37 @@
+h1 {
+    font-size: 20px;
+    font-family:sans-serif;
+}
+body{
+    padding: 10px;
+}
+p {
+    font-size: 20px;
+    font-family:Times, serif;
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.content {
+    max-width: 800px;
+    text-overflow: clip;
+}
+p::first-letter{
+    float: left;
+    font-family: Georgia;
+    font-size: 45px;
+    padding-top: 3px;
+    padding-right: 6px;
+    padding-left: 3px;
+    line-height: 40px;
+}
+
+.hero{
+    height: 200px;
+    background-image: url(pixelsort.jpg);
+    background-size: cover;
+    background-position: 50%  90%;
+}
