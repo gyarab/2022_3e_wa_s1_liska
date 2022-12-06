@@ -28,3 +28,13 @@ p::first-letter{
     padding-left: 3px;
     line-height: 40px;
 }
+.hero{
+    height: 200px;
+    background-image: url(pixelsort.jpg);
+    background-size: cover;
+    background-position: 50%  90%;
+}
+
+.debug{
+    border: 1px solid red;
+}
